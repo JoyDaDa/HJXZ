@@ -1,0 +1,35 @@
+<view class="bg">
+
+</view>
+
+<view class="hr"></view>
+<view class='item' bindtap='copyText' data-text="{{xxgw}}">
+  <view class="title">学校官网</view>
+  <view class="detail2">
+    <text> {{xxgw}}</text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item" bindtap='copyText' data-text="{{jwxt}}">
+  <view class="title">教务系统网站</view>
+  <view class="detail2">
+    <text> {{jwxt}}</text>
+  </view>
+</view>
+
+<view class="line"></view>
+<view class="item" bindtap='copyText' data-text="{{slj}}">
+  <view class="title">四六级官网</view>
+  <view class="detail2">
+    <text> {{slj}}</text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="item" bindtap='copyText' data-text="{{jsj}}">
+  <view class="title">计算机二级官网</view>
+  <view class="detail2">
+    <text> {{jsj}}</text>
+  </view>
+</view>
+<view class="line"></view>
+<view class="hr"></view>

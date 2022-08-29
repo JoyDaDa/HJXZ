@@ -1,0 +1,93 @@
+page {
+  background-color: #f8f8f8;
+}
+.user_info_wrap {
+  height: 45vh;
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
+.user_info_wrap .user_img_wrap {
+  position: relative;
+}
+.user_info_wrap .user_img_wrap .user_bg {
+  height: 50vh;
+  width: 110%;
+  filter: blur(20rpx);
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 30%;
+  text-align: center;
+}
+.user_info_wrap .user_img_wrap .user_info .user_icon {
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_info_wrap .user_img_wrap .user_info .user_name {
+  color: #fff;
+  margin-top: 40rpx;
+  font-size: 40rpx;
+}
+.user_btn {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 30%;
+  text-align: center;
+}
+.other {
+  background-color: #f8f8f8;
+  margin-top: 18rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.other .item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin-top: 35rpx;
+}
+.other .item .title {
+  padding: 20rpx;
+  margin: 10rpx;
+  font-size: 30rpx;
+}
+
+.hr {
+  width: 100%;
+  height: 15px;
+  background-color: #f4f5f6;
+}
+
+.item {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 5px 5px 5px #cdcfcf;
+  margin-top: 35rpx;
+}
+
+.title {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  font-size: 15px;
+}
+
+.detail2 {
+  font-size: 15px;
+  position: absolute;
+  right: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: #888;
+}
+
+.line {
+  border: 1px solid #ccc;
+  opacity: 0.2;
+}
+

@@ -1,0 +1,18 @@
+
+<view class="item">
+    <view class="title">说明</view>
+    <view class="detail2"  style="overflow-wrap: break-word">
+      <view>1. 账号和密码均与教务系统相同。</view>
+      <view> 2. 合经小站系个人开发项目，所提供数据仅供参考，一切以教务系统为准。</view>
+      <view>3.如有疑问，建议或遇到bug可点 我--联系开发者 反馈</view>
+    </view>
+</view>
+
+<view class="item">
+    <view class="title">声明</view>
+    <view class="detail2"  style="overflow-wrap: break-word">
+      <view>1. 本项目所产生的数据仅用于本项目业务</view>
+      <view>2. 开发者保留最终解释权</view>
+      <view>3. 本项目仅供交流学习使用，非商业目的</view>
+    </view>
+</view>

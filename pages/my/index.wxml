@@ -1,0 +1,39 @@
+<view class="user_info_wrap">
+  <view wx:if="{{userInfo.avatarUrl}}" class="user_img_wrap">
+    <image class="user_bg" src="{{userInfo.avatarUrl}}"></image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+  <view wx:else class="user_btn">
+    <button type="primary" bindtap="getUserProfile">登录</button>
+  </view>
+</view>
+
+
+<view class="other">
+  <navigator class="item" url="/pages/kefu/index">
+    <view class="title">联系开发者</view>
+    <view class="detail2">
+      <view>点击联系开发者</view>
+    </view>
+  </navigator>
+
+  <navigator class="item" url="/pages/about/index">
+    <view class="title" >关于</view>
+    <view class="detail2">
+      <!-- <text> ></text> -->
+    </view>
+  </navigator>
+
+  <view class="item">
+    <view class="title">版本</view>
+    <view class="detail2">
+      <text> V2.2.4</text>
+    </view>
+  </view>
+
+</view>
+
+<!-- //https://blog.csdn.net/qq_36232611/article/details/85227804 -->

@@ -1,0 +1,71 @@
+<view>周次</view>
+<view class="comment-btn">
+        <button 
+            wx:for="{{zcCommentList}}" 
+            wx:for-item="item" 
+            wx:key="item.index"  
+            bindtap="zccheckboxChange" 
+            data-value="{{item.value}}" 
+            data-index="{{index}}"  
+            checked="{{item.selected}}"
+            class="btn {{item.selected ? 'btn-selected' : ''}}" >
+            {{item.title}}
+        </button>
+</view>
+
+<view>星期</view>
+<view class="comment-btn">
+        <button 
+            wx:for="{{xqCommentList}}" 
+            wx:for-item="item" 
+            wx:key="item.index"  
+            bindtap="xqcheckboxChange" 
+            data-value="{{item.value}}" 
+            data-index="{{index}}"  
+            checked="{{item.selected}}"
+            class="btn {{item.selected ? 'btn-selected' : ''}}" >
+            {{item.title}}
+        </button>
+</view>
+
+<view>节次</view>
+<view class="comment-btn">
+        <button 
+            wx:for="{{jcCommentList}}" 
+            wx:for-item="item" 
+            wx:key="item.index"  
+            bindtap="jccheckboxChange" 
+            data-value="{{item.value}}" 
+            data-index="{{index}}"  
+            checked="{{item.selected}}"
+            class="btn {{item.selected ? 'btn-selected' : ''}}" >
+            {{item.title}}
+        </button>
+</view>
+
+<button class="but" bindtap="getKjs" type="primary" plain='ture'>查询</button>
+
+
+
+<view class="table">
+    <view class="tr bg-w" >
+            <view class="th ">场地编号</view>
+            <view class="th">场地名称</view>
+            <view class="th ">校区</view>
+            <view class="th">场地类别</view>
+    </view>
+    <block wx:for="{{classroomList}}">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+            <view class="td">{{item.cd_id}}</view>
+            <view class="td">{{item.cdmc}}</view>
+            <view class="td">{{item.xqmc}}</view>
+            <view class="td">{{item.cdlbmc}}</view>
+        </view>
+        <view class="tr" wx:else>
+            <view class="td">{{item.cd_id}}</view>
+            <view class="td">{{item.cdmc}}</view>
+            <view class="td">{{item.xqmc}}</view>
+            <view class="td">{{item.cdlbmc}}</view>
+        </view>
+    </block>
+</view>

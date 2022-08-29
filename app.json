@@ -1,0 +1,53 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/login/index",
+    "pages/gndt/index",
+    "pages/my/index",
+    "pages/cj/index",
+    "pages/kb/index",
+    "pages/kjs/index",
+    "pages/xl/index",
+    "pages/crlj/index",
+    "pages/about/index",
+    "pages/map/index",
+    "pages/kefu/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "合经小站",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home-o.png"
+    },
+    {
+      "pagePath": "pages/gndt/index",
+      "text": "功能大厅",
+      "iconPath": "icons/category.png",
+      "selectedIconPath": "icons/category-o.png"
+    },
+    {
+      "pagePath": "pages/my/index",
+      "text": "我",
+      "iconPath": "icons/my.png",
+      "selectedIconPath": "icons/my-o.png"
+    }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置用于定位"
+    }
+  },
+
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

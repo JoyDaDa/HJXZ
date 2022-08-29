@@ -1,0 +1,69 @@
+<view class="index_index">
+  <!-- 轮播图---开始 -->
+  <view class="index_swiper">
+    <swiper autoplay="{{true}}" indicator-dots="{{true}}">  
+      <swiper-item
+      wx:for="{{SwiperList}}"
+      wx:key="url"
+      >
+      <image mode="widthFix" src="{{item.url}}"></image>
+     </swiper-item>
+    </swiper>
+  </view>
+  <!-- 轮播图---结束 -->
+
+  <!-- 猜你想用---开始 -->
+  <!-- <view class="words">猜你想用</view>
+  <view class="want_use">
+    <navigator
+    wx:for="{{CatesList}}"
+    wx:key="name"
+    >
+      <image mode="widthFix" src="{{item.image_src}}"></image>
+    </navigator>
+  </view> -->
+  <!-- 猜你想用---结束 -->
+</view> 
+
+<view class="item">
+    <view class="title">当前气温:{{temperature.temperature}}℃ {{temperature.text}}</view>
+    <view class="detail2">
+      <!-- <text> V0.1.1</text> -->
+      <view wx:for="{{weather}}" >
+        <view>{{item.date}} {{item.text_day}}-{{item.text_night}}  {{item.high}}℃~{{item.low}}℃</view>
+      </view>
+    </view>
+  </view>
+
+<view class="item">
+    <view class="title">公告</view>
+    <view class="detail2"  style="overflow-wrap: break-word">
+    
+      <navigator url="/pages/about/index" style="color: #6d3ad4;text-decoration:underline;">1.关于</navigator>
+      <view bindtap="gg" style="color: #6d3ad4;text-decoration:underline;">2.登陆后才能查看课表，点击登录</view>
+    </view>
+</view>
+
+
+  <!-- 今日课表---开始 -->
+<view class="item" style="background: rgb(167, 229, 240);">
+  <view class="title">今日课表</view>
+    <view class="detail2"  style="overflow-wrap: break-word;color: #000;">
+      <view wx:if="{{CourseList!=''}}">
+        <view wx:for="{{CourseList}}" wx:key="cd_id"> 星期{{item.xqj}}：{{item.skjc}}-{{item.skjc}}节 {{item.kcmc}}@{{item.cdmc}}</view>
+      </view>
+      <view wx:else>
+        <image src="/icons/nothasimage.png" mode="widthFix" ></image>
+      </view>    
+  </view>
+
+</view>
+    <!-- 今日课表---结束 -->
+  <!-- 一言 -->
+<view class="image-parent"> 
+  <image src="{{OneWord.picture2}}" mode="scaleToFill" class="image" style="width: 710rpx; height: 225rpx; display: inline-block; box-sizing: border-box"></image> 
+  <view class="child" style="position: absolute; left: -25rpx; top: -16rpx">{{OneWord.note}}
+  <view>{{OneWord.content}}</view>
+  </view> 
+
+</view>

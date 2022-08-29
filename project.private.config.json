@@ -1,0 +1,84 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "功能大厅",
+          "pathName": "pages/gndt/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/my/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "绑定",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "成绩",
+          "pathName": "pages/cj/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "课表",
+          "pathName": "pages/kb/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "校历",
+          "pathName": "pages/xl/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "常用链接",
+          "pathName": "pages/crlj/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "登录",
+          "pathName": "pages/login/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "map",
+          "pathName": "pages/map/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "关于",
+          "pathName": "pages/about/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "空教室查询",
+          "pathName": "pages/kjs/index",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

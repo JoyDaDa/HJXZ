@@ -1,0 +1,69 @@
+page {
+  background-color: #f8f8f8;
+}
+.index_swiper {
+  display: flex;
+}
+.index_swiper swiper {
+  width: 750rpx;
+  height: 340rpx;
+  padding: 20rpx;
+}
+.index_swiper swiper image {
+  width: 100%;
+  border-radius: 25rpx;
+}
+.words {
+  display: flex;
+  font-size: 35rpx;
+  padding: 5rpx;
+  margin-left: 15rpx;
+}
+.want_use {
+  display: flex;
+}
+.want_use navigator {
+  flex: 1;
+  padding: 20rpx;
+}
+.want_use navigator image {
+  width: 100%;
+}
+.other {
+  background-color: #f8f8f8;
+  margin-top: 18rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.other .item {
+  display: flex;
+  background-color: #fff;
+  border-radius: 10rpx;
+  margin-top: 18rpx;
+}
+.other .item .title {
+  padding: 20rpx;
+  margin: 10rpx;
+  font-size: 30rpx;
+}
+.image-parent {
+  position: relative;
+  margin: 20rpx;
+}
+.image-parent .image {
+  width: 100%;
+  border-radius: 20rpx;
+  filter: blur(1px);
+}
+.image-parent .child {
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  font-size: 25rpx;
+  color: #fff;
+}

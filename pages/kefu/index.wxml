@@ -1,0 +1,2 @@
+<!--pages/kefu/index.wxml-->
+<button type="primary" open-type="contact" bindcontact="handleContact">人工客服</button>

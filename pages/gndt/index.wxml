@@ -1,0 +1,59 @@
+<view class="gndt">
+  <!-- 学业相关---开始 -->
+  <view class="xyxg">
+    <view class="words">学业相关</view>
+    <view class="all_icons">
+      <view class="icons" bindtap="cj">
+        <text class="iconfont icon-wodechengji" ></text>
+        <view class="wdcj_text">我的成绩</view>
+      </view>
+      <view class="icons" bindtap="kb">
+        <text class="iconfont icon-wodekebiao"></text>
+        <view class="wdcj_text">我的课表</view>
+      </view>
+    </view>
+  </view>
+  <!-- 一键查询---结束 -->
+
+  <!-- 一键查询---开始 -->
+  <view class="xyxg">
+    <view class="words">一键查询</view>
+    <view class="all_icons">
+      <view class="icons" bindtap="kjs">
+        <text class="iconfont icon-kongjiaoshichaxun-01"></text>
+        <view class="wdcj_text">空教室查询</view>
+      </view>
+    </view>
+  </view>
+  <!-- 一键查询---结束 -->
+
+  <!-- 校园生活---开始 -->
+   <view class="xyxg">
+    <view class="words">校园生活</view>
+    <view class="all_icons">
+      <view class="icons" bindtap="xl">
+        <text class="iconfont icon-xiaoliguanli"></text>
+        <view class="wdcj_text">校历</view>
+      </view>
+      <view class="icons" bindtap="xydh">
+        <text class="iconfont icon-xiaoyuandaohang"></text>
+        <view class="wdcj_text">校园导航</view>
+      </view>
+    </view>
+  </view>
+  <!-- 校园生活---结束 -->
+
+  <!-- 其他服务---开始 -->
+    <view class="xyxg">
+    <view class="words">其他服务</view>
+    <view class="all_icons">
+      <view class="icons" bindtap="crlj">
+        <text class="iconfont icon-changyonglianjie"></text>
+        <view class="wdcj_text">常用链接</view>
+      </view>
+    </view>
+  </view>
+  <!-- 其他服务---结束 -->
+</view>
+
+

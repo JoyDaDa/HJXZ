@@ -1,0 +1,21 @@
+.xyxg .words {
+  font-size: 35rpx;
+  padding: 40rpx 25rpx;
+}
+.xyxg .all_icons {
+  display: flex;
+}
+.xyxg .all_icons .icons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rpx 50rpx;
+}
+.xyxg .all_icons .icons .iconfont {
+  padding-bottom: 15rpx;
+  color: #f8554c;
+}
+.xyxg .all_icons .icons .wdcj_text {
+  font-size: 20rpx;
+}

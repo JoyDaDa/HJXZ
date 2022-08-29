@@ -1,0 +1,29 @@
+<view class="container"> 
+ <view class="login-icon"> 
+ <image class="login-img" src="/icons/index.jpg" ></image> 
+ </view>
+ <view class="login-from"> 
+
+ <!--账号-->
+ <view class="inputView"> 
+  <image class="nameImage" src="../../images/name.png"></image> 
+  <label class="loginLab">用户名</label> 
+  <input class="inputText" placeholder="请输入用户名" bindinput="userNameInput" /> 
+ </view> 
+ <view class="line"></view> 
+  
+ <!--密码-->
+ <view class="inputView"> 
+  <image class="keyImage" src="../../images/key.png"></image> 
+  <label class="loginLab">密码</label> 
+  <input class="inputText" password="true" placeholder="请输入密码" bindinput="passwordInput" /> 
+ </view> 
+  
+ <!--按钮-->
+ <view class="loginBtnView"> 
+  <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button> 
+  <view class="sm" >1. 账号和密码均与教务系统相同。</view>
+  <view class="sm">2. 合经小站系个人开发项目，所提供数据仅供参考，一切以教务系统为准。</view>
+ </view> 
+ </view> 
+</view> 
